@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["chrome >= 65", "last 3 versions"]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "comments": false,
+  "plugins": ["@babel/plugin-proposal-optional-chaining"]
+}

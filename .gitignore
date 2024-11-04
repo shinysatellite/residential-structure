@@ -1,0 +1,10 @@
+node_modules
+node_modules.nosync
+build
+.DS_Store
+*.zip
+secrets.*.js
+.env
+
+# Sentry Config File
+.env.sentry-build-plugin
